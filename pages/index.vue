@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex text-red-500">hey</div>
+  <div class="text-blue-500 font-Druk d-flex">hey</div>
 </template>
 
 <script>

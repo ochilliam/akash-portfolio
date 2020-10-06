@@ -1,0 +1,30 @@
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Druk Wide';
+    src: url('~/assets/fonts/Druk/DrukWide-Bold.woff2') format('woff2'),
+      url('~/assets/fonts/Druk/DrukWide-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  /* @font-face {
+    font-family: Helvetica;
+    font-weight: normal;
+    src: url(~assets/Helvetica/Helvetica.ttc) format('ttc');
+  }
+  @font-face {
+    font-family: 'Crimson Text';
+    font-weight: normal;
+    src: url(~assets/Crimson/CrimsonText-Regular.ttf) format('ttf');
+  }
+  @font-face {
+    font-family: 'Cera Pro';
+    font-weight: normal;
+    src: url(~assets/CeraPro/Cera-pro-regular.otf) format('otf');
+  } */
+}
