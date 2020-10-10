@@ -1,5 +1,5 @@
 {
-  "name": "akash-portfolio",
+  "name": "Akshofficial",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "gsap": "^3.5.1",
-    "nuxt": "^2.14.5"
+    "nuxt": "^2.14.5",
+    "swiper": "^6.3.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",

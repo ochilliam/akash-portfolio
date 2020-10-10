@@ -1,5 +1,8 @@
 <template>
-  <div class="text-blue-500 font-Druk d-flex">hey</div>
+  <div>
+    <Hero />
+    <Discover />
+  </div>
 </template>
 
 <script>
