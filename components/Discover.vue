@@ -12,14 +12,38 @@
     />
 
     <div
-      class="absolute inset-0 z-0 grid w-full h-full grid-cols-12 grid-rows-3"
+      class="absolute inset-0 z-0 grid w-full h-full grid-cols-8 grid-rows-6"
     >
-      <h2 class="col-start-3 col-end-11 row-start-2 text-6xl text-white">
+      <div class="w-full h-full col-start-1 col-end-1 row-start-5 row-end-7">
+        <div class="flex items-center justify-center w-full h-full">
+          <p class="capitalize transform -rotate-90">
+            <span class="pr-12">film maker</span>
+            <svg
+              class="inline w-px h-auto transform -rotate-90"
+              viewBox="0 0 1 68"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="0.5"
+                y1="0.5"
+                x2="0.5"
+                y2="67.5"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </p>
+        </div>
+      </div>
+
+      <h2 class="col-start-3 col-end-7 row-start-3 text-6xl text-white">
         film maker
       </h2>
 
       <button
-        class="w-1/3 h-12 col-start-3 col-end-11 row-start-3 m-auto bg-white rounded-full"
+        class="w-1/3 h-12 col-start-3 col-end-7 row-start-5 m-auto bg-white rounded-full"
         type="button"
       >
         Discover my work
@@ -39,31 +63,6 @@
           <polyline points="9 18 15 12 9 6"></polyline>
         </svg>
       </button>
-
-      <div
-        class="flex items-center justify-center w-full h-full col-start-1 row-start-2 row-end-4"
-      >
-        <div class="flex items-center justify-center w-full h-full">
-          <p class="text-white capitalize transform -rotate-90">
-            <span class="">film maker</span>
-            <svg
-              class="inline w-px h-auto text-current transform -rotate-90 stroke-current"
-              viewBox="0 0 1 68"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <line
-                x1="0.5"
-                y1="0.5"
-                x2="0.5"
-                y2="67.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </p>
-        </div>
-      </div>
     </div>
   </div>
 </template>

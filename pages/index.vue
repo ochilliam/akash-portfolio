@@ -2,6 +2,10 @@
   <div>
     <Hero />
     <Discover />
+    <Review />
+    <ShowOff />
+    <Contact />
+    <Footer />
   </div>
 </template>
 
