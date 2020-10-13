@@ -5,6 +5,9 @@
     <Review />
     <ShowOff />
     <Contact />
+    <VideoCarousel />
+    <ImageShowOff />
+    <ProjectDetail />
     <Footer />
   </div>
 </template>

@@ -1,10 +1,10 @@
 <template>
-  <div class="static flex items-end justify-center h-screen">
+  <div class="flex items-end justify-center w-full h-screen">
     <img
       src="~/assets/image/akash.png"
       width="800"
       style="height: 90%"
-      class="absolute z-10 object-cover object-center mx-auto"
+      class="absolute inset-auto z-10 object-cover object-center mx-auto"
       height="800"
       alt="Akash image"
     />
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="absolute inset-0 z-0 grid h-screen grid-cols-8 grid-rows-6">
+    <div class="absolute z-0 grid w-full h-screen grid-cols-8 grid-rows-6">
       <div class="w-full h-full col-start-1 col-end-1 row-start-5 row-end-7">
         <div class="flex items-center justify-center w-full h-full">
           <p class="capitalize transform -rotate-90">
@@ -81,18 +81,18 @@
         </div>
       </div>
 
-      <div class="w-full h-full col-start-2 col-end-6 row-start-2 row-end-6">
+      <div class="w-full h-full col-start-1 col-end-5 row-start-2 row-end-6">
         <div class="flex items-center justify-center">
           <p style="font-size: 10rem">akash</p>
         </div>
       </div>
-      <div class="w-full h-full col-start-8 col-end-12 row-start-2 row-end-6">
+      <div class="w-full h-full col-start-7 col-end-8 row-start-2 row-end-6">
         <div class="flex items-center justify-center">
           <p style="font-size: 10rem">sekar</p>
         </div>
       </div>
 
-      <div class="w-full h-full col-start-9 col-end-12 row-start-1 row-end-3">
+      <div class="w-full h-full col-start-6 col-end-9 row-start-1 row-end-3">
         <div class="flex items-center justify-center w-full h-full">
           <button
             type="button"
